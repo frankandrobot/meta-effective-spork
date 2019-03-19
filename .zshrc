@@ -62,7 +62,7 @@ ZSH_THEME="agnoster"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(gitfast autopep8 catimg colorize dirhistory docker emacs osx per-directory-history web-search yarn)
+plugins=(gitfast autopep8 catimg colorize dirhistory docker emacs osx per-directory-history web-search yarn ssh-agent)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -94,3 +94,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh" 

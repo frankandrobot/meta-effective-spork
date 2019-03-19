@@ -150,7 +150,6 @@ module.exports = {
     plugins: [
 	      'hyperterm-visor',
 	      "hyper-solarized-light",
-	      'hyperpower',
         'hyper-statusline',
     ],
 

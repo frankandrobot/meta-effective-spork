@@ -52,6 +52,7 @@ catimg image.png
 ```
 #### colorize
 - Colorized `cat`. Use `ccat`.
+- You'll need to `pip install pygments`.
 #### dirhistory
 - Navigate history via keyboard shortcuts.
 - OPT-LEFT and OPT-RIGHT moves through directory history.
